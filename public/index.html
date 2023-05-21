@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link href="index.css" rel="stylesheet">
+
+  <title>DNA Sequence Calculator</title>
+</head>
+<body>
+  <h1>DNA Sequence Calculator</h1>
+  <form id="submitForm">
+    <label for="sequenceInput">Enter DNA Sequence:</label>
+    <input type="text" id="sequenceText" required>
+    <div>
+    <button class="button" id="calcbutton" type="submit">Calculate</button>
+    </div>
+   </form>
+  <div id="sequencediv"></div>
+  <div id="weightdiv"></div>
+  <div id="shippingdiv"></div>
+
+  <script src="dna.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
